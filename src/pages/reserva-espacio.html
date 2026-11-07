@@ -1,0 +1,109 @@
+<!--META {"title": "Reserva tu espacio en la zona gaming | ElectroGame Fuengirola", "description": "Reserva tu puesto de PS5, Nintendo Switch, Xbox o realidad virtual Meta Quest 3 en ElectroGame Fuengirola. Elige día, hora y jugadores y te confirmamos por WhatsApp.", "path": "/reserva-espacio/", "nav": "reserva", "og_image": "/assets/img/sala-gaming.webp"} -->
+<section class="page-hero">
+  <div class="wrap">
+    <div>
+      <nav class="crumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">/</span><a href="/zona-gaming/">Zona gaming</a><span aria-hidden="true">/</span><span>Reservar</span></nav>
+      <span class="eyebrow">Reserva en 1 minuto</span>
+      <h1>Reserva tu espacio para <span class="grad">jugar</span></h1>
+      <p class="lead">Paseo Marítimo, frente al puerto de Fuengirola. Elige consola, día y hora: te llega a nuestro WhatsApp y <strong>te confirmamos la reserva</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap split wide-left">
+    <div class="form-card reveal">
+      <h2>Datos de la reserva</h2>
+      <p>Los campos con * son obligatorios.</p>
+      <form class="form" data-wa-form data-intro="¡Hola ElectroGame! Quiero reservar en la zona gaming:" data-subject="Reserva zona gaming" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="r-nombre">Nombre *</label>
+            <input id="r-nombre" name="nombre" autocomplete="given-name" required data-label="Nombre">
+            <span class="err">Escribe tu nombre.</span>
+          </div>
+          <div class="field">
+            <label for="r-tel">Teléfono *</label>
+            <input id="r-tel" name="telefono" type="tel" autocomplete="tel" required data-label="Teléfono">
+            <span class="err">Escribe un teléfono de contacto.</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="r-act">¿A qué quieres jugar? *</label>
+            <select id="r-act" name="actividad" required data-label="Actividad">
+              <option value="">Elige una opción</option>
+              <option data-key="ps5" data-p1="7 €" data-p2="12 €" data-unit="hora">PS5</option>
+              <option data-key="switch" data-p1="7 €" data-p2="12 €" data-unit="hora">Nintendo Switch 2 / Switch 1</option>
+              <option data-key="xbox" data-p1="7 €" data-p2="12 €" data-unit="hora">Xbox Series S</option>
+              <option data-key="vr" data-p1="8 €" data-p2="15 €" data-unit="media hora">Meta Quest 3 (VR / realidad mixta)</option>
+              <option data-key="arcade">Arcades, pinball o simulador</option>
+              <option data-key="grupo">Grupo: varias consolas</option>
+            </select>
+            <span class="err">Elige una actividad.</span>
+          </div>
+          <div class="field">
+            <label for="r-jug">Jugadores *</label>
+            <select id="r-jug" name="jugadores" required data-label="Jugadores">
+              <option value="">¿Cuántos sois?</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3 o más">3 o más</option>
+            </select>
+            <span class="err">Indica cuántos jugadores.</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="r-fecha">Día *</label>
+            <input id="r-fecha" name="fecha" type="date" required data-label="Día">
+            <span class="err">Elige un día.</span>
+          </div>
+          <div class="field">
+            <label for="r-hora">Hora *</label>
+            <select id="r-hora" name="hora" required data-label="Hora">
+              <option value="">Elige hora</option>
+              <option>16:00</option>
+              <option>16:30</option>
+              <option>17:00</option>
+              <option>17:30</option>
+              <option>18:00</option>
+              <option>18:30</option>
+            </select>
+            <span class="err">Elige una hora.</span>
+          </div>
+        </div>
+        <div class="estimate" aria-live="polite"></div>
+        <div class="field">
+          <label for="r-com">Comentarios <span class="opt">(opcional)</span></label>
+          <textarea id="r-com" name="comentarios" data-label="Comentarios" placeholder="Juego que te gustaría, si es un cumpleaños, etc."></textarea>
+        </div>
+        <label class="check"><input type="checkbox" required> <span>Acepto que ElectroGame use estos datos para gestionar mi reserva, según la <a href="/privacidad/">política de privacidad</a>. *</span></label>
+        <div class="form-actions">
+          <button class="btn btn-wa" type="submit"><svg><use href="#i-wa"/></svg>Enviar reserva por WhatsApp</button>
+          <button class="btn btn-ghost" type="button" data-send="mail"><svg><use href="#i-mail"/></svg>Enviar por email</button>
+        </div>
+        <p class="form-note">La reserva queda confirmada cuando te respondemos. El pago se hace en el local.</p>
+      </form>
+    </div>
+
+    <aside class="stack reveal">
+      <div class="panel">
+        <h3>Tarifas</h3>
+        <ul class="rates">
+          <li><span>PS5 · Switch · Xbox, 1 jugador</span><b>7 € / h</b></li>
+          <li><span>PS5 · Switch · Xbox, 2 jugadores</span><b>12 € / h</b></li>
+          <li><span>Meta Quest 3, 1 jugador</span><b>8 € / ½ h</b></li>
+          <li><span>Meta Quest 3, 2 jugadores</span><b>15 € / ½ h</b></li>
+        </ul>
+        <p class="form-note" style="margin-top:14px">Zona gaming de 16:00 a 19:00. <a href="/zona-gaming/" style="color:var(--lime)">Ver todo lo que hay →</a></p>
+      </div>
+      <div class="map-card" style="min-height:300px">
+        <img src="/assets/img/sala-gaming.webp" alt="Sala gaming de ElectroGame" width="1011" height="455" loading="lazy">
+        <h3>Área Comercial Las Palmeras</h3>
+        <p>Local O-5 · Fuengirola</p>
+        <a class="btn btn-light btn-sm" href="/ubicacion/"><svg><use href="#i-pin"/></svg>Cómo llegar</a>
+      </div>
+    </aside>
+  </div>
+</section>

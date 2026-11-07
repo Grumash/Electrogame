@@ -1,0 +1,120 @@
+<!--META {"title": "Talleres formativos de reparación y mantenimiento | ElectroGame Fuengirola", "description": "Talleres prácticos en Fuengirola: aprende a eliminar el drift de tu mando cambiando el joystick o a limpiar y cambiar la pasta térmica de tu PC. Reserva tu plaza por 5 €.", "path": "/gamers-curiosos/", "nav": "talleres", "preload": "/assets/img/taller-tecnico.webp", "og_image": "/assets/img/taller-tecnico.webp"} -->
+<section class="page-hero with-media">
+  <div class="wrap">
+    <div>
+      <nav class="crumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span aria-hidden="true">/</span><span>Talleres formativos</span></nav>
+      <span class="eyebrow">Gamers curiosos</span>
+      <h1>Formación técnica y <span class="grad">talleres prácticos</span></h1>
+      <p class="lead">Talleres cortos y prácticos para aprender a mantener y reparar tus dispositivos, con un técnico al lado. <strong>Reserva tu plaza por 5 €</strong>: si el taller no se realiza, te los devolvemos.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-wa" href="#reservar"><svg><use href="#i-cap"/></svg>Reservar plaza</a>
+        <a class="btn btn-ghost" href="#talleres">Ver talleres</a>
+      </div>
+    </div>
+    <div class="hero-media tall"><img src="/assets/img/taller-tecnico.webp" alt="Técnico trabajando en el taller de ElectroGame" width="768" height="822" fetchpriority="high" style="object-position:50% 60%"></div>
+  </div>
+</section>
+
+<section class="section tight" id="talleres">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Próximos talleres</span>
+      <h2>Elige tu taller</h2>
+      <p>Plazas limitadas. Dinos qué taller te interesa y cuándo te viene bien, y te avisamos de la próxima fecha.</p>
+    </div>
+    <div class="device-grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+      <article class="device hot reveal">
+        <div class="head"><div class="ico"><svg><use href="#i-pad"/></svg></div><h3>Montaje de componentes: adiós al drift</h3></div>
+        <p>Aprende a eliminar el drift de tu mando sustituyendo el joystick, paso a paso.</p>
+        <ul class="checks">
+          <li>Desmontaje seguro del mando</li>
+          <li>Cambio de joystick</li>
+          <li>Montaje y prueba final</li>
+        </ul>
+      </article>
+      <article class="device reveal">
+        <div class="head"><div class="ico"><svg><use href="#i-laptop"/></svg></div><h3>Mantenimiento de hardware</h3></div>
+        <p>Limpieza de tu PC y sustitución de la pasta térmica para que no se caliente.</p>
+        <ul class="checks">
+          <li>Limpieza interna del equipo</li>
+          <li>Cambio de pasta térmica</li>
+          <li>Consejos para alargar su vida</li>
+        </ul>
+      </article>
+      <article class="device reveal">
+        <div class="head"><div class="ico"><svg><use href="#i-cap"/></svg></div><h3>¿Cómo funciona la reserva?</h3></div>
+        <p>Reservas tu plaza por 5 €. Te mantenemos informado de la fecha.</p>
+        <ul class="checks">
+          <li>Plazas limitadas</li>
+          <li>Tú eliges mes y mañana o tarde</li>
+          <li>Si no se realiza, te devolvemos los 5 €</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="reservar">
+  <div class="wrap split wide-left">
+    <div class="form-card reveal">
+      <h2>Reserva tu plaza</h2>
+      <p>Te contestamos para confirmar la fecha y la reserva de 5 €.</p>
+      <form class="form" data-wa-form data-intro="¡Hola ElectroGame! Me interesa un taller formativo:" data-subject="Reserva de taller formativo" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="t-nombre">Nombre *</label>
+            <input id="t-nombre" name="nombre" autocomplete="name" required data-label="Nombre">
+            <span class="err">Escribe tu nombre.</span>
+          </div>
+          <div class="field">
+            <label for="t-tel">Teléfono *</label>
+            <input id="t-tel" name="telefono" type="tel" autocomplete="tel" required data-label="Teléfono">
+            <span class="err">Escribe un teléfono de contacto.</span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="t-email">Correo electrónico *</label>
+          <input id="t-email" name="email" type="email" autocomplete="email" required data-label="Email">
+          <span class="err">Escribe un correo válido.</span>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="t-taller">Taller *</label>
+            <select id="t-taller" name="taller" required data-label="Taller">
+              <option value="">Elige un taller</option>
+              <option>Montaje de componentes: eliminar el drift del mando</option>
+              <option>Mantenimiento de hardware: limpieza y pasta térmica del PC</option>
+              <option>Otro tema (lo explico en comentarios)</option>
+            </select>
+            <span class="err">Elige un taller.</span>
+          </div>
+          <div class="field">
+            <label for="t-cuando">Mes aproximado y franja <span class="opt">(opcional)</span></label>
+            <input id="t-cuando" name="cuando" data-label="Cuándo" placeholder="Ej.: diciembre, por la tarde">
+          </div>
+        </div>
+        <div class="field">
+          <label for="t-mot">Motivación <span class="opt">(opcional)</span></label>
+          <input id="t-mot" name="motivacion" data-label="Motivación" placeholder="¿Qué te gustaría aprender?">
+        </div>
+        <div class="field">
+          <label for="t-com">Comentarios adicionales <span class="opt">(opcional)</span></label>
+          <textarea id="t-com" name="comentarios" data-label="Comentarios"></textarea>
+        </div>
+        <label class="check"><input type="checkbox" required> <span>Acepto que mis datos se usen para contactar conmigo y sé que puedo retirar mi consentimiento cuando quiera. Más información en la <a href="/privacidad/">política de privacidad</a>. *</span></label>
+        <div class="form-actions">
+          <button class="btn btn-wa" type="submit"><svg><use href="#i-wa"/></svg>Enviar por WhatsApp</button>
+          <button class="btn btn-ghost" type="button" data-send="mail"><svg><use href="#i-mail"/></svg>Enviar por email</button>
+        </div>
+      </form>
+    </div>
+    <aside class="stack reveal">
+      <div class="note"><b>Reserva sin riesgo.</b> Si te inscribes y el taller no se llega a realizar, te devolvemos los 5 €.</div>
+      <div class="panel">
+        <h3>¿Prefieres que te lo reparemos?</h3>
+        <p style="color:var(--muted);margin-bottom:18px">Si no tienes tiempo, nosotros arreglamos el drift de tu mando en 24 h.</p>
+        <a class="btn btn-ghost btn-sm" href="/reparacion-consolas/">Ver reparaciones</a>
+      </div>
+    </aside>
+  </div>
+</section>
